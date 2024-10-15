@@ -1,0 +1,125 @@
+.contact-section-home {
+    background-color: rgb(0, 36, 74);
+    color: #ffffff;
+  }
+  
+  /* Banner section customization */
+  .banner-section {
+    background-image: url('../../../assets/images/carpentry2.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    background-attachment: fixed;
+    position: relative;
+   
+  }
+  
+  .banner-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.731); /* Negro semitransparente, ajusta según prefieras */
+    z-index: 1;
+  }
+  
+  /* Asegura que el contenido esté por encima de la capa de transparencia */
+  .banner-section .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  
+  /* BOTON*/
+  .btn {
+    transition: all 0.3s ease; /* Suaviza la transición */
+  }
+  
+  .btn:hover {
+    background-color: #ffffff; /* Cambia el color del fondo */
+    filter: brightness(1.2); /* Ilumina el botón */
+  }
+  
+  .btn:active {
+    transform: scale(1.1); /* Agranda el botón al hacer clic */
+  }
+  
+  
+  
+  /* LOGO*/
+  
+  /* Parallax effect for the footer */
+  .footer-logo-section {
+    background-image: url('../../../assets/images/wood-image.jpg'); /* Background image */
+    background-size: cover;
+    background-attachment: fixed; /* Parallax effect */
+    background-position: center;
+    height: 25vh;
+    position: relative;
+  }
+  
+  /* Transparent overlay across the entire logo section */
+  .footer-logo-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.821); /* White transparent overlay */
+    z-index: 1; /* Ensure it's behind the logo */
+  }
+  
+  .logo-container {
+    position: relative;
+    z-index: 2; /* Ensure logo is above the transparent overlay */
+  }
+  
+  .logo-container img {
+    max-width: 250px;
+    text-align: center;
+  }
+  
+  .bi {
+    font-size: 2rem; /* Increase size for Bootstrap icons */
+  }
+  
+  /* Responsive typography for banner */
+  @media (max-width: 768px) {
+    .banner-section h1 {
+      font-size: 2.5rem;
+    }
+  
+    .banner-section p {
+      font-size: 1.25rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .banner-section h1 {
+      font-size: 2rem;
+    }
+  
+    .banner-section p {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Mobile adjustments for features section */
+  @media (max-width: 576px) {
+    .features-section .feature-icon {
+      font-size: 1.5rem; /* Reduce size of icons */
+    }
+  
+    .features-section h3 {
+      font-size: 1.25rem;
+    }
+  
+    .features-section p {
+      font-size: 1rem;
+    }
+  }
+  
+  

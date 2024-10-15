@@ -1,0 +1,76 @@
+.navbar {
+    background-color: rgb(0, 36, 74);
+    z-index: 1000;
+    
+}
+
+.nav-link {
+    color: aliceblue;
+}
+.homelink {
+  color:rgb(131, 226, 255);
+}
+
+.imglogo {
+    transition: filter 0.3s ease;
+    display: block;
+    margin: 0 auto;
+  }
+  
+.imglogo:hover {
+    filter: drop-shadow(0 0 3px rgb(123, 211, 255)) brightness(1);
+  }
+  
+  .navbar-toggler{
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    
+  }
+
+  .navbar-toggler-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+
+ 
+      
+/* Estilos para el navbar toggler personalizado */
+.navbar-toggler-custom {
+  border: none;
+  outline: none;
+}
+
+/* Estilo para que el menú colapsado se vea como un sidebar */
+@media (max-width: 767.98px) {
+.slide-in-menu {
+  position: fixed;
+  top: 0;
+  left: -100%; /* Fuera de la pantalla inicialmente */
+  width: 150px;
+  height: 100%;
+  background-color: rgb(255, 255, 255); /* Color de fondo para el sidebar */
+  transition: 0.3s ease-in-out; /* Animación suave */
+  z-index: 1050; /* Asegurarse que esté por encima del contenido */
+  padding-top: 70px; /* Espacio para evitar superposición con el botón del menú */
+  
+} 
+
+/* Estilo para mostrar el sidebar al colapsar */
+.slide-in-menu.show {
+  left: 0;
+}
+
+/* Estilos para los enlaces dentro del sidebar */
+.slide-in-menu .navbar-nav .nav-link {
+  color:  rgb(41, 41, 41);
+  padding: 18px;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.slide-in-menu .navbar-nav .nav-link:hover {
+  background-color: rgb(0, 36, 74); 
+  color: aliceblue;
+}
+
+}

@@ -1,0 +1,83 @@
+
+.contact-section {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 20rem;
+  }
+  
+  .contact-info {
+    color: rgb(0, 36, 74);
+  }
+  
+  .contact-info p, .contact-info li {
+    color: rgb(41, 41, 41);
+  }
+  
+  .contact-form .form-label {
+    color: rgb(0, 36, 74);
+  }
+  
+  .btn-primary {
+    background-color: rgb(0, 36, 74);
+    border-color: rgb(0, 36, 74);
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: rgb(41, 41, 41);
+    border-color: rgb(41, 41, 41);
+  }
+  
+  .contact-form textarea {
+    resize: none;
+  }
+  
+  @media (max-width: 767.98px) {
+    .contact-info, .contact-form {
+      text-align: center;
+    }
+  
+    .contact-info ul {
+      padding-left: 0;
+    }
+  
+    .contact-info ul li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+  
+    .contact-form {
+      margin-top: 2rem;
+    }
+  }
+  
+  .footer-logo-section{
+    position: relative;
+    margin-bottom: 0;
+
+  }
+
+
+.footer-logo-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.821); 
+  z-index: 1; 
+}
+
+.logo-container {
+  position: relative;
+  z-index: 2; 
+}
+
+.logo-container img {
+  max-width: 250px;
+  text-align: center;
+}
+  
