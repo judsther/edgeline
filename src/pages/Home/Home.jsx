@@ -1,5 +1,5 @@
-import { Navbar } from '../../components/Navbar/Navbar';
-import { Banner } from './components/Banner';
+import { Navbar } from '/src/components/Navbar/Navbar';
+import { Banner } from '/src//pages/Home/components/Banner';
 import './Home.css'
 import redologo from '/src/assets/images/redologo.png'
 import { Link } from 'react-router-dom';

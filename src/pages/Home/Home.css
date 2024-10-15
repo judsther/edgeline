@@ -5,7 +5,6 @@
   
   /* Banner section customization */
   .banner-section {
-    background-image: url('../../../assets/images/carpentry2.jpg'); /* Replace with your image */
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -21,11 +20,11 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.731); /* Negro semitransparente, ajusta según prefieras */
+    background-color: rgba(0, 0, 0, 0.731); 
     z-index: 1;
   }
   
-  /* Asegura que el contenido esté por encima de la capa de transparencia */
+
   .banner-section .container {
     position: relative;
     z-index: 2;
@@ -34,33 +33,32 @@
   
   /* BOTON*/
   .btn {
-    transition: all 0.3s ease; /* Suaviza la transición */
+    transition: all 0.3s ease; 
   }
   
   .btn:hover {
-    background-color: #ffffff; /* Cambia el color del fondo */
-    filter: brightness(1.2); /* Ilumina el botón */
+    background-color: #ffffff; 
+    filter: brightness(1.2); 
   }
   
   .btn:active {
-    transform: scale(1.1); /* Agranda el botón al hacer clic */
+    transform: scale(1.1); 
   }
   
   
   
   /* LOGO*/
   
-  /* Parallax effect for the footer */
+
   .footer-logo-section {
-    background-image: url('../../../assets/images/wood-image.jpg'); /* Background image */
     background-size: cover;
-    background-attachment: fixed; /* Parallax effect */
+    background-attachment: fixed; 
     background-position: center;
     height: 25vh;
     position: relative;
   }
   
-  /* Transparent overlay across the entire logo section */
+  
   .footer-logo-section::before {
     content: '';
     position: absolute;
