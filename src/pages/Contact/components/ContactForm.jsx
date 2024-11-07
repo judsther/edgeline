@@ -44,7 +44,7 @@ export const ContactForm = () => {
 
         <div className="mb-3">
         <label className='form-label' htmlFor="message">Menssage:</label>
-        <textarea className='form-control'
+        <textarea className='form-control p-4'
           id="message"
           name="message"
           value={message}

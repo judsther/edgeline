@@ -15,7 +15,7 @@ export const Home = () => {
         <div className="container">
           <div className="row text-center">
             <div className="col-md-4 col-sm-6 mb-4">
-              <i className="bi bi-tools fs-1 mb-3"></i> {/* Bootstrap Icons */}
+              <i className="bi bi-tools fs-1 mb-3"></i>
               <h3>Quality Work</h3>
               <p>High-standard installations you can trust.</p>
             </div>
@@ -42,8 +42,8 @@ export const Home = () => {
         </div>
         <div className="container col-md-4 col-sm-6 text-center">
           <h2 className="mb-4 mt-2 text-light">Follow us!</h2>
-          <i className="bi bi-instagram fs-3"></i> <p>@xxxxxxx</p>
-          <i className="bi bi-facebook fs-3"></i> <p>xxxxxxxx</p>
+          <i className="bi bi-instagram fs-3"></i> <p>@edgelineinstallations</p>
+          <i className="bi bi-facebook fs-3"></i> <p>Edgeline Installations</p>
         </div>
       </section>
 
