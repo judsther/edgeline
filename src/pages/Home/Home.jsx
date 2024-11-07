@@ -4,8 +4,6 @@ import './Home.css'
 import redologo from '/src/assets/images/redologo.png'
 import { Link } from 'react-router-dom';
 
-//import woodimage from '../../../assets/images/wood-image.jpg'
-//import carpentry2 from '../../../assets/images/carpentry2.jpg'
 
 export const Home = () => {
   return (
